@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    transition: background 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #00409a;
+    border-radius: 5px;
+  }
+  
+  .section {
+    padding: 2em;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-bottom: 1em;
+  }
+  
+  button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #00409a;
+  }
+  
+  .feature-list, .course-list, .challenge-list, .forum-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+  }
+  
+  .feature, .course-card, .challenge-card, .forum-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f1f1f1;
+  }
+  
+  .social-links a {
+    margin: 0 0.5em;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #0056b3;
+  }
+  
